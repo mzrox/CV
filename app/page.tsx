@@ -52,8 +52,8 @@ export default function Home() {
   };
 
   const downloadResume = () => {
-    // Open the HTML resume in a new window for printing/saving as PDF
-    window.open('/resume.html', '_blank');
+    // Open the resume API route in a new window
+    window.open('/api/resume', '_blank');
   };
 
   const skills = {
@@ -381,7 +381,7 @@ export default function Home() {
               <Button 
                 size="lg" 
                 onClick={downloadResume}
-                className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 group w-full sm:w-auto"
+                className="hidden bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 group w-full sm:w-auto"
               >
                 <Download className="w-4 sm:w-5 h-4 sm:h-5 mr-2 group-hover:animate-bounce" />
                 Download Resume
