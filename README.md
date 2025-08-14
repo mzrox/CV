@@ -4,7 +4,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mzrox&label=Profile%20views&color=0e75b6&style=flat" alt="mzrox" /> </p>
 
-- 🔭 I'm currently working as **Project Lead at Osintleak** developing Python tools and dashboards
+- 🔭 I'm currently working as **Project Lead** developing Python tools and dashboards
 
 - 🌱 I'm currently mastering **Advanced React, AI Model Development, and Blockchain**
 
