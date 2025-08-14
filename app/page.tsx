@@ -21,7 +21,8 @@ import {
   ChevronRight,
   User,
   Home as HomeIcon,
-  FolderOpen
+  FolderOpen,
+  Palette
 } from 'lucide-react';
 import Image from 'next/image';
 
@@ -48,6 +49,11 @@ export default function Home() {
       // Close mobile nav when navigating
       setIsMobileNavOpen(false);
     }
+  };
+
+  const downloadResume = () => {
+    // Open the HTML resume in a new window for printing/saving as PDF
+    window.open('/resume.html', '_blank');
   };
 
   const skills = {
@@ -170,7 +176,7 @@ export default function Home() {
       {/* Animated Navbar */}
       <nav className={`fixed top-0 left-0 h-full bg-white/95 dark:bg-slate-900/95 backdrop-blur-sm border-r border-slate-200 dark:border-slate-700 z-50 transition-all duration-500 
         ${/* Desktop behavior - hidden by default, show when scrolled */ ''}
-        ${isScrolled ? 'sm:translate-x-0 sm:opacity-100 sm:block' : 'sm:-translate-x-full sm:opacity-0 sm:hidden'} sm:w-20
+        ${isScrolled ? 'sm:translate-x-0 sm:opacity-100 sm:block' : 'sm:-translate-x-full sm:opacity-0 sm:hidden'} sm:w-48
         ${/* Mobile behavior - hidden by default, show when toggled */ ''}
         ${isMobileNavOpen ? 'translate-x-0 opacity-100 block w-64' : '-translate-x-full opacity-0 hidden'}
       `}>
@@ -181,86 +187,86 @@ export default function Home() {
               alt="Muhammad Muzammil Tahir"
               width={40}
               height={40}
-              className="rounded-full ring-2 ring-blue-500 object-cover w-12 h-12 sm:w-10 sm:h-10"
+              className="rounded-full ring-2 ring-blue-500 object-cover w-12 h-12 sm:w-12 sm:h-12"
             />
           </div>
           
-          <div className="flex flex-col gap-3 sm:gap-4 w-full px-4 sm:px-0">
+          <div className="flex flex-col gap-3 sm:gap-4 w-full px-4">
             <Button
               variant="ghost"
               size="sm"
-              className="w-full sm:w-10 sm:h-10 h-12 p-2 sm:p-0 justify-start sm:justify-center text-left"
+              className="w-full h-12 flex items-center justify-start p-2"
               onClick={() => scrollToSection('hero')}
               title="Home"
             >
-              <HomeIcon className="w-5 h-5 sm:mr-0 mr-3 flex-shrink-0" />
-              <span className="block sm:hidden">Home</span>
+              <HomeIcon className="w-5 h-5 flex-shrink-0" />
+              <span className="ml-3">Home</span>
             </Button>
             
             <Button
               variant="ghost"
               size="sm"
-              className="w-full sm:w-10 sm:h-10 h-12 p-2 sm:p-0 justify-start sm:justify-center text-left"
+              className="w-full h-12 flex items-center justify-start p-2"
               onClick={() => scrollToSection('about')}
               title="About"
             >
-              <User className="w-5 h-5 sm:mr-0 mr-3 flex-shrink-0" />
-              <span className="block sm:hidden">About</span>
+              <User className="w-5 h-5 flex-shrink-0" />
+              <span className="ml-3">About</span>
             </Button>
             
             <Button
               variant="ghost"
               size="sm"
-              className="w-full sm:w-10 sm:h-10 h-12 p-2 sm:p-0 justify-start sm:justify-center text-left"
+              className="w-full h-12 flex items-center justify-start p-2"
               onClick={() => scrollToSection('skills')}
               title="Skills"
             >
-              <Code className="w-5 h-5 sm:mr-0 mr-3 flex-shrink-0" />
-              <span className="block sm:hidden">Skills</span>
+              <Code className="w-5 h-5 flex-shrink-0" />
+              <span className="ml-3">Skills</span>
             </Button>
             
             <Button
               variant="ghost"
               size="sm"
-              className="w-full sm:w-10 sm:h-10 h-12 p-2 sm:p-0 justify-start sm:justify-center text-left"
+              className="w-full h-12 flex items-center justify-start p-2"
               onClick={() => scrollToSection('experience')}
               title="Experience"
             >
-              <Briefcase className="w-5 h-5 sm:mr-0 mr-3 flex-shrink-0" />
-              <span className="block sm:hidden">Experience</span>
+              <Briefcase className="w-5 h-5 flex-shrink-0" />
+              <span className="ml-3">Experience</span>
             </Button>
             
             <Button
               variant="ghost"
               size="sm"
-              className="w-full sm:w-10 sm:h-10 h-12 p-2 sm:p-0 justify-start sm:justify-center text-left"
+              className="w-full h-12 flex items-center justify-start p-2"
               onClick={() => scrollToSection('education')}
               title="Education"
             >
-              <GraduationCap className="w-5 h-5 sm:mr-0 mr-3 flex-shrink-0" />
-              <span className="block sm:hidden">Education</span>
+              <GraduationCap className="w-5 h-5 flex-shrink-0" />
+              <span className="ml-3">Education</span>
             </Button>
             
             <Button
               variant="ghost"
               size="sm"
-              className="w-full sm:w-10 sm:h-10 h-12 p-2 sm:p-0 justify-start sm:justify-center text-left"
+              className="w-full h-12 flex items-center justify-start p-2"
               onClick={() => scrollToSection('projects')}
               title="Projects"
             >
-              <FolderOpen className="w-5 h-5 sm:mr-0 mr-3 flex-shrink-0" />
-              <span className="block sm:hidden">Projects</span>
+              <FolderOpen className="w-5 h-5 flex-shrink-0" />
+              <span className="ml-3">Projects</span>
             </Button>
             
             <Button
               variant="ghost"
               size="sm"
-              className="w-full sm:w-10 sm:h-10 h-12 p-2 sm:p-0 justify-start sm:justify-center text-left"
+              className="w-full h-12 flex items-center justify-start p-2"
               onClick={() => scrollToSection('contact')}
               title="Contact"
             >
-              <Mail className="w-5 h-5 sm:mr-0 mr-3 flex-shrink-0" />
-              <span className="block sm:hidden">Contact</span>
+              <Mail className="w-5 h-5 flex-shrink-0" />
+              <span className="ml-3">Contact</span>
             </Button>
           </div>
         </div>
@@ -301,14 +307,25 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full bg-gradient-to-t from-blue-600/30 via-transparent to-transparent"></div>
                 
                 {/* Floating icons around profile - Hidden on mobile for cleaner look */}
-                <div className="hidden sm:block absolute -top-4 -right-4 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center animate-bounce delay-500">
-                  <Code className="w-4 h-4 text-white" />
+                <div className="hidden sm:block absolute -top-4 -right-4 w-8 h-8 bg-blue-500 rounded-full animate-bounce delay-500">
+                  <div className="w-full h-full flex items-center justify-center">
+                    <Code className="w-4 h-4 text-white" />
+                  </div>
                 </div>
-                <div className="hidden sm:block absolute -bottom-4 -left-4 w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center animate-bounce delay-1000">
-                  <Database className="w-4 h-4 text-white" />
+                <div className="hidden sm:block absolute -bottom-4 -left-4 w-8 h-8 bg-indigo-500 rounded-full animate-bounce delay-1000">
+                  <div className="w-full h-full flex items-center justify-center">
+                    <Database className="w-4 h-4 text-white" />
+                  </div>
                 </div>
-                <div className="hidden sm:block absolute top-1/2 -left-8 w-6 h-6 bg-purple-500 rounded-full flex items-center justify-center animate-bounce delay-700">
-                  <Globe className="w-3 h-3 text-white" />
+                <div className="hidden sm:block absolute top-1/2 -translate-y-1/2 -left-8 w-6 h-6 bg-purple-500 rounded-full animate-bounce delay-700">
+                  <div className="w-full h-full flex items-center justify-center">
+                    <Globe className="w-3 h-3 text-white" />
+                  </div>
+                </div>
+                <div className="hidden sm:block absolute top-1/2 -translate-y-1/2 -right-8 w-6 h-6 bg-pink-500 rounded-full animate-bounce delay-300">
+                  <div className="w-full h-full flex items-center justify-center">
+                    <Palette className="w-3 h-3 text-white" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -326,7 +343,7 @@ export default function Home() {
               
               <div className="relative inline-block">
                 <p className="text-lg sm:text-2xl md:text-3xl font-semibold text-slate-700 dark:text-slate-200 mb-4 sm:mb-6 relative z-10 px-2">
-                  Full-Stack Developer & Computer Science Student
+                  Full-Stack Developer
                 </p>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-indigo-400/20 blur-lg rounded-lg"></div>
               </div>
@@ -342,7 +359,7 @@ export default function Home() {
               <div className="group">
                 <Badge variant="secondary" className="text-xs sm:text-sm py-2 sm:py-3 px-4 sm:px-6 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200/50 hover:border-blue-300 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg w-full sm:w-auto justify-center">
                   <MapPin className="w-3 sm:w-4 h-3 sm:h-4 mr-2 text-blue-600" />
-                  City, Country
+                  Lahore, Pakistan
                 </Badge>
               </div>
               <div className="group">
@@ -363,6 +380,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center px-4">
               <Button 
                 size="lg" 
+                onClick={downloadResume}
                 className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 group w-full sm:w-auto"
               >
                 <Download className="w-4 sm:w-5 h-4 sm:h-5 mr-2 group-hover:animate-bounce" />

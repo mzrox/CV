@@ -1,0 +1,294 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 4800
+>>
+stream
+BT
+% Header Section with Blue Background
+0.2 0.4 0.8 rg
+50 740 512 40 re
+f
+1 1 1 rg
+/F1 24 Tf
+60 755 Td
+(MUHAMMAD MUZAMMIL TAHIR) Tj
+
+% Subtitle
+/F2 14 Tf
+60 735 Td
+(Full-Stack Developer & Computer Science Student) Tj
+
+% Contact Information Bar
+0.9 0.9 0.9 rg
+50 700 512 25 re
+f
+0 0 0 rg
+/F2 10 Tf
+60 710 Td
+(Email: mztahir1234@gmail.com  |  Phone: +92 311 4811914  |  GitHub: github.com/mzrox) Tj
+
+% Profile Section
+0 0 0 rg
+/F1 16 Tf
+50 675 Td
+(PROFILE) Tj
+0.2 0.4 0.8 rg
+50 670 100 2 re
+f
+0 0 0 rg
+/F2 11 Tf
+50 650 Td
+(Final-year Computer Science student with CGPA 3.94, passionate about creating) Tj
+0 -15 Td
+(innovative solutions with expertise in React, Python, AI, and modern web technologies.) Tj
+0 -15 Td
+(Strong full-stack development skills with a proven track record in UI/UX design,) Tj
+0 -15 Td
+(and experience across multiple programming languages and frameworks.) Tj
+
+% Technical Skills Section
+/F1 16 Tf
+50 595 Td
+(TECHNICAL SKILLS) Tj
+0.2 0.4 0.8 rg
+50 590 150 2 re
+f
+0 0 0 rg
+
+% Skills in organized columns
+/F3 12 Tf
+50 570 Td
+(Programming Languages:) Tj
+/F2 10 Tf
+0 -15 Td
+(• Python, C++, C#, Java, JavaScript, Dart, Solidity) Tj
+
+/F3 12 Tf
+50 540 Td
+(Frontend Technologies:) Tj
+/F2 10 Tf
+0 -15 Td
+(• React, Next.js, HTML5, CSS3, Tailwind CSS, Responsive Design) Tj
+
+/F3 12 Tf
+50 510 Td
+(Backend & Databases:) Tj
+/F2 10 Tf
+0 -15 Td
+(• Node.js, Express.js, Flask, PostgreSQL, MongoDB, Firebase, Supabase) Tj
+
+/F3 12 Tf
+50 480 Td
+(Mobile & Other:) Tj
+/F2 10 Tf
+0 -15 Td
+(• Flutter, Google Apps Script, API Development, SEO Optimization) Tj
+
+/F3 12 Tf
+50 450 Td
+(Design & Creative:) Tj
+/F2 10 Tf
+0 -15 Td
+(• UI/UX Design, Graphic Design, 2D/3D Animation, Video Editing, Branding) Tj
+
+% Work Experience Section
+/F1 16 Tf
+50 415 Td
+(WORK EXPERIENCE) Tj
+0.2 0.4 0.8 rg
+50 410 180 2 re
+f
+0 0 0 rg
+
+% Experience entries
+/F3 13 Tf
+50 390 Td
+(Osintleak - Project Lead & Python Developer) Tj
+/F2 10 Tf
+400 390 Td
+(2025 - Present) Tj
+/F2 10 Tf
+50 375 Td
+(• Leading project development and creating bots, tools, and dashboards) Tj
+0 -12 Td
+(• Developing automation solutions and overseeing technical implementations) Tj
+0 -12 Td
+(• Managing cross-functional teams and project deliverables) Tj
+
+/F3 13 Tf
+50 335 Td
+(Freelance - Google Apps Script Developer) Tj
+/F2 10 Tf
+400 335 Td
+(2021 - 2024) Tj
+/F2 10 Tf
+50 320 Td
+(• Developed automation scripts for Google Workspace applications) Tj
+0 -12 Td
+(• Built tools for data handling, reporting, and form processing) Tj
+0 -12 Td
+(• Delivered tailored solutions based on specific client requirements) Tj
+
+/F3 13 Tf
+50 280 Td
+(University Teaching Assistant - Coding & Development) Tj
+/F2 10 Tf
+350 280 Td
+(2022 - 2025) Tj
+/F2 10 Tf
+50 265 Td
+(• Assisted in teaching Python, Java, and C++ to junior students) Tj
+0 -12 Td
+(• Supported debugging, project development, and coding best practices) Tj
+
+/F3 13 Tf
+50 235 Td
+(Hired Support - Humantic Call Reviewer) Tj
+/F2 10 Tf
+400 235 Td
+(2022 - 2023) Tj
+/F2 10 Tf
+50 220 Td
+(• Reviewed customer interaction recordings for quality assurance) Tj
+0 -12 Td
+(• Identified process gaps and recommended workflow improvements) Tj
+
+% Education Section
+/F1 16 Tf
+50 185 Td
+(EDUCATION) Tj
+0.2 0.4 0.8 rg
+50 180 100 2 re
+f
+0 0 0 rg
+
+/F3 13 Tf
+50 160 Td
+(Bachelor of Science in Computer Science) Tj
+/F2 10 Tf
+400 160 Td
+(2022 - 2026) Tj
+/F2 11 Tf
+50 145 Td
+(Riphah International University) Tj
+/F3 12 Tf
+50 130 Td
+(CGPA: 3.94 / 4.00) Tj
+
+% Projects Section
+/F1 16 Tf
+50 105 Td
+(FEATURED PROJECTS) Tj
+0.2 0.4 0.8 rg
+50 100 180 2 re
+f
+0 0 0 rg
+
+/F3 12 Tf
+50 80 Td
+(QPOLL - Voting Application) Tj
+/F2 10 Tf
+0 -12 Td
+(• Mobile voting app built with Flutter, Firebase, and Supabase) Tj
+0 -12 Td
+(• Features real-time voting, candidate registration, and smooth animations) Tj
+
+/F3 12 Tf
+50 40 Td
+(Bank Management System (C++)) Tj
+/F2 10 Tf
+0 -12 Td
+(• Comprehensive CLI-based banking system with transaction processing) Tj
+
+/F3 12 Tf
+330 80 Td
+(Criminal Management System (Java)) Tj
+/F2 10 Tf
+0 -12 Td
+(• Database-driven system with search capabilities) Tj
+
+/F3 12 Tf
+330 40 Td
+(Operating System Simulator (Java)) Tj
+/F2 10 Tf
+0 -12 Td
+(• Visual representation of OS processes) Tj
+
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Oblique
+>>
+endobj
+
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000005127 00000 n 
+0000005195 00000 n 
+0000005258 00000 n 
+trailer
+<<
+/Size 8
+/Root 1 0 R
+>>
+startxref
+5326
+%%EOF
